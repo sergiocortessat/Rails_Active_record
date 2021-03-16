@@ -1,24 +1,97 @@
-# README
+# Active_Records
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Table of Contents
+  <br />
+  
+* [About the Project](#about-the-project)
+* [Built With](#built-with)
+* [Contributing](#contributing)
+* [Contact](#authors)
+* [Acknowledgements](#acknowledgements) 
 
-Things you may want to cover:
+#
+<br />
 
-* Ruby version
+[![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com) </br>
+![rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 
-* System dependencies
+<br />
 
-* Configuration
+#
 
-* Database creation
 
-* Database initialization
+<!-- ABOUT THE PROJECT   -->
+## About The Project
 
-* How to run the test suite
+The Ruby - ChatBot is a tool that helps user to boost their daily routine with some jokes and motivational phrases. The overall intentation is to help people to boost their productivity or change their mood status.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Screenshot Test
 
-* Deployment instructions
+<p align="center">
+  <img height="auto" src="screenshots/Screenshot.png">
+</p>
 
-* ...
+
+### Built With
+
+* [RUBY]
+* [RAILS]
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+## Prequisites
+
+Ruby & Rails installed on your local machine.
+bundle installed on your machine
+Terminal or similar to execute the program.
+
+
+## Getting Started
+
+
+## Clone project
+
+- To get a local copy up and running follow these simple example steps.
+- Clone this repository with git clone ```https://github.com/sergiocortessat/Rails_Active_record/tree/feature``` using your terminal or command line.
+- Change to the project directory by entering : ```cd Rails_Active_record``` in the terminal.
+- run the command ```bundle install```
+- run the command ```rails console```
+
+## How to use the Active_record app
+1. run the command ```bundle install```
+2. run the command ```rails console```
+
+- Validations to test:
+
+    * u2 = User.find(2) 
+    * c1 = u2.comments.first - should return that user’s comment.
+    * c1.user - should return that comment’s author User (u2)
+    * p1 = Post.first
+    * p1.comments.first - should return the comment c1
+    * c1.post - should return the post p1
+
+
+## Authors
+
+👤 Sergio Cortes Satizabal
+
+- Github: [@sergiocortessat](https://github.com/sergiocortessat)
+- Twitter: [@sergiocortessat](https://twitter.com/sergiocortessat)
+
+
+
+Project Link: [Ruby-capstone](https://github.com/sergiocortessat/Ruby-Capstone-ChatBot/issues/2)
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* [Microverse](https://www.microverse.org/)
+
+## 📝 License
+
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+
+
