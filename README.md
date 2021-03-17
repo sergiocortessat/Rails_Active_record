@@ -2,7 +2,7 @@
 
 ## Table of Contents
   <br />
-  
+
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
 * [Contributing](#contributing)
@@ -26,11 +26,12 @@
 The Ruby - ChatBot is a tool that helps user to boost their daily routine with some jokes and motivational phrases. The overall intentation is to help people to boost their productivity or change their mood status.
 
 ## Screenshot Test
-
+#
 <p align="center">
-  <img height="auto" src="screenshots/Screenshot.png">
+  <img height="auto" src="Screenshot.png">
 </p>
 
+#
 
 ### Built With
 
