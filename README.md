@@ -23,7 +23,7 @@
 <!-- ABOUT THE PROJECT   -->
 ## About The Project
 
-The Ruby - ChatBot is a tool that helps user to boost their daily routine with some jokes and motivational phrases. The overall intentation is to help people to boost their productivity or change their mood status.
+The micro-reddit project sets up an initial rails app containing 2 referenced databases.
 
 ## Screenshot Test
 #
@@ -40,7 +40,7 @@ The Ruby - ChatBot is a tool that helps user to boost their daily routine with s
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 ## Prequisites
 
@@ -56,13 +56,14 @@ Terminal or similar to execute the program.
 
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with git clone ```https://github.com/sergiocortessat/Rails_Active_record/tree/feature``` using your terminal or command line.
-- Change to the project directory by entering : ```cd Rails_Active_record``` in the terminal.
-- run the command ```bundle install```
-- run the command ```rails console```
+- Change to the project directory by entering: ```cd Rails_Active_record``` in the terminal.
+
 
 ## How to use the Active_record app
-1. run the command ```bundle install```
-2. run the command ```rails console```
+1. run the command ```bundle install```   This will install the required dependencies
+2. run the command ```rails db:create```. This will initialize the necessary migration files
+3. run the command ```ails db:migrate``` 
+4. run the command ```rails console```
 
 - Validations to test:
 
